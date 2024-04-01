@@ -96,8 +96,31 @@
             </div>
             <div class="row">
                 <div class="col-md-6 pb-5">
-                 
-
+                 <div class="panorama">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15708.422789908042!2d-67.9076892!3d10.1720634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8069953f7b0167%3A0xb4c5f3d6ccd727ee!2sMini%20market%20J%26A!5e0!3m2!1ses!2sve!4v1711934143410!5m2!1ses!2sve"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <style>
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            background: #ffffff;
+                        }
+                        .panorama {
+                            position: relative;
+                            overflow: hidden;
+                            padding-bottom: 180%; /* 500 (altura) / 1500 (ancho) = 0.333 = 33.333% */
+                            height: 0;
+                        }
+                        .panorama iframe {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                        }
+                    </style>
+                    </div>
+    
                 </div>
                 <div class="col-md-6 pb-5">
                     <div class="contact-form">
